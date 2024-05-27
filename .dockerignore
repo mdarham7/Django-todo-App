@@ -1,0 +1,55 @@
+# Ignore Python bytecode
+*.pyc
+*.pyo
+__pycache__
+
+# Ignore virtual environment directories
+venv/
+env/
+env.bak/
+*.env
+
+# Ignore development and deployment files
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Ignore version control directories and files
+.git
+.gitignore
+
+# Ignore temporary files and directories
+*.swp
+*.swo
+*.swn
+*.log
+*.tmp
+.tmp/
+*.bak
+*.backup
+*.old
+*.orig
+*.tmp
+
+# Ignore database files
+*.db
+*.sqlite3
+
+# Ignore media and static files (if managed separately)
+media/
+static/
+
+# Ignore IDE and editor configuration files
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# Ignore coverage files
+.coverage
+.coverage.*
+
+# Ignore build and deployment directories
+build/
+dist/
